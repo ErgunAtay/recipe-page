@@ -21,7 +21,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Frontend Mentor](https://www.frontendmentor.io/profile/ErgunAtay)
-- Live Site URL: [Add live site URL here](https://ergunatay.github.io/recipe-page/)
+- Live Site URL: [Recipe Page](https://ergunatay.github.io/recipe-page/)
 
 ## My process
 
