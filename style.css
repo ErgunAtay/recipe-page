@@ -4,7 +4,7 @@
 .container {
   background-color: var(--clr-white);
   width: 100%;
-  padding: 32px 24px;
+  padding: 2rem 1.5rem;
   border-radius: 0;
 }
 
@@ -21,15 +21,15 @@
   color: var(--clr-stone-900);
   font-size: 2.5rem;
   line-height: 1;
-  margin-top: 40px;
-  margin-bottom: 24px;
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .recipe-header p {
   line-height: 1.5;
   font-size: 1rem;
   color: var(--clr-stone-600);
-  margin-bottom: 32px;
+  margin-bottom: 2rem;
 }
 .times {
   background-color: var(--clr-rose-50);
@@ -99,18 +99,18 @@ h1 {
 
 .line {
   border-top: 1px solid var(--clr-stone-150);
-  margin: 20px 0;
+  margin: 1.25rem 0;
 }
 
 .Instructions {
-  padding: 10px;
+  padding: 0.625rem;
   font-family: var(--ff-young-serif), sans-serif;
   font-weight: 400;
 }
 
 .Instructions h2 {
   color: var(--clr-brown-800);
-  padding-bottom: 15px;
+  padding-bottom: 0.9375rem;
 }
 
 .Instructions ol {
@@ -120,7 +120,7 @@ h1 {
   flex-wrap: wrap;
   flex-direction: column;
   font-family: var(--ff-outfit), sans-serif;
-  font-weight: var(--fw-bold 700);
+  font-weight: var(--fw-bold);
 }
 
 .Instructions li {
@@ -140,7 +140,7 @@ h1 {
 
 .nutrition {
   color: var(--clr-brown-800);
-  padding-top: 4px;
+  padding-top: 0.25rem;
   line-height: 1.8;
 }
 
@@ -164,7 +164,7 @@ h1 {
 
 .nutrition-table th {
   width: 50%;
-  padding: 14px 0 14px 32px;
+  padding: 0.875rem 0 0.875rem 2rem;
   text-align: left;
   font-weight: var(--fw-regular);
   color: var(--clr-stone-600);
@@ -172,7 +172,7 @@ h1 {
 }
 
 .nutrition-table td {
-  padding: 14px 0;
+  padding: 0.875rem 0;
   text-align: left;
   font-weight: var(--fw-bold);
   color: var(--clr-brown-800);
@@ -181,15 +181,15 @@ h1 {
 .attribution {
   font-size: 0.6875rem;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 3.125rem;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--clr-attribution-link);
 }
 
-@media (min-width: 640px) {
+@media (min-width: 40em) {
   body {
-    padding: 80px 20px;
+    padding: 5rem 1.25rem;
     justify-content: center;
     align-items: center;
   }
@@ -197,7 +197,7 @@ h1 {
   .container {
     max-width: 736px;
     border-radius: 24px;
-    padding: 40px;
+    padding: 2.5rem;
   }
 
   .recipe-header img {

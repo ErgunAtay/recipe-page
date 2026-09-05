@@ -5,29 +5,32 @@
 }
 
 :root {
-  /* Arka Planlar */
-  --clr-white: hsl(0, 0%, 100%); /* Kart zemin */
-  --clr-stone-100: hsl(30, 54%, 90%); /* Sayfa zemin (body) */
-  --clr-rose-50: hsl(330, 100%, 98%); /* Preparation kutusu zemin */
+  /* Backgrounds */
+  --clr-white: hsl(0, 0%, 100%); /* Card background */
+  --clr-stone-100: hsl(30, 54%, 90%); /* Page background (body) */
+  --clr-rose-50: hsl(330, 100%, 98%); /* Preparation box background */
 
-  /* Metin ve Paragraf Renkleri */
-  --clr-stone-600: hsl(30, 10%, 34%); /* <p> (Paragraflar) ve liste yazıları */
-  --clr-stone-900: hsl(24, 5%, 18%); /* h1 (Ana başlık) */
-  --clr-brown-800: hsl(14, 45%, 36%); /* h2 (Bölüm başlıkları) */
-  --clr-rose-800: hsl(332, 51%, 32%); /* Preparation time başlığı */
+  /* Text and Paragraph Colors */
+  --clr-stone-600: hsl(30, 10%, 34%); /* <p> (Paragraphs) and list text */
+  --clr-stone-900: hsl(24, 5%, 18%); /* h1 (Main heading) */
+  --clr-brown-800: hsl(14, 45%, 36%); /* h2 (Section headings) */
+  --clr-rose-800: hsl(332, 51%, 32%); /* Preparation time heading */
 
-  /* Çizgiler */
-  --clr-stone-150: hsl(30, 18%, 87%); /* Alt çizgiler (hr / border) */
+  /* Dividers */
+  --clr-stone-150: hsl(30, 18%, 87%); /* Underlines (hr / border) */
 
-  /* Fontlar */
+  /* Fonts */
   --ff-outfit: "Outfit", sans-serif;
   --ff-young-serif: "Young Serif", serif;
 
-  /* Kalınlıklar */
+  /* Font weights */
   --fw-regular: 400;
   --fw-semi-bold: 600;
   --fw-bold: 700;
+
+  --clr-attribution-link: hsl(228, 45%, 44%);
 }
+
 body {
   display: flex;
   flex-direction: column;
