@@ -16,7 +16,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Recipe page screenshot](./preview.jpg)
+![Recipe page screenshot](./preview.png)
 
 ### Links
 
